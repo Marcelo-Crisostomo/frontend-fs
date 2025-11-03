@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = "https://backend-fs.onrender.com/api/personas";
+const API_URL = "https://backend-fs-qgxf.onrender.com/api/personas";
 
 function PersonaList() {
     const [personas, setPersonas] = useState([]);
