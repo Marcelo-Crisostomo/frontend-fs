@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = "https://crud-backend.onrender.com/api/personas";
+const API_URL = "https://backend-fs-qgxf.onrender.com/api/personas";
 
 function PersonaForm() {
     const [nombre, setNombre] = useState("");
